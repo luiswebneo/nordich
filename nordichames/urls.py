@@ -17,9 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from core.views import frontpage
+from core.views import frontpage, shop
+from product.views import product
 
 urlpatterns = [
     path('painel-admin/', admin.site.urls),
     path('', frontpage, name='frontpage'),
+    path('product/', product, name='product'),
+    path('shop/', shop, name='shop'),
 ]
