@@ -1,4 +1,4 @@
-#!/home/luis/django_estudos/nordich/venv/bin/python
+#!/home/luis/django_project/nordich/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

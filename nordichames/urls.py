@@ -23,6 +23,6 @@ from product.views import product
 urlpatterns = [
     path('painel-admin/', admin.site.urls),
     path('', frontpage, name='frontpage'),
-    path('product/', product, name='product'),
+    path('shop/<slug:slug>/', product, name='product'),
     path('shop/', shop, name='shop'),
 ]
